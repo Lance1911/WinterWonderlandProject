@@ -24,5 +24,13 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_productDetails"
+            app:destination="@id/productDetails" />
     </fragment>
+    <fragment
+        android:id="@+id/productDetails"
+        android:name="com.example.winterwonderlandapp.ProductDetails"
+        android:label="product_details"
+        tools:layout="@layout/product_details" />
 </navigation>

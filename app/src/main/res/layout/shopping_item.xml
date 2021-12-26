@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="174dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/productRating"
+            android:layout_width="140dp"
+            android:layout_height="33dp"
+            android:fontFamily="sans-serif-light"
+            android:text="TextView"
+            android:textStyle="bold|italic"
+            android:translationX="175dp"
+            android:translationY="130dp" />
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="146dp"
+            android:layout_height="162dp"
+            android:translationX="15dp"
+            android:translationY="5dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="169dp"
+            android:layout_height="67dp"
+            android:fontFamily="sans-serif-light"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:translationX="175dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="140dp"
+            android:layout_height="33dp"
+            android:fontFamily="sans-serif-light"
+            android:text="TextView"
+            android:textStyle="bold|italic"
+            android:translationX="175dp"
+            android:translationY="85dp" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
